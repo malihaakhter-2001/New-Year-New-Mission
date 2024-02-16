@@ -177,7 +177,8 @@ margin-bottom: 15px;
  
 }
  .holiday-img{
-  margin-bottom: 250px;
+  margin-bottom: 230px;
+  margin-right: 180px;
 }
  .holiday-section span{ 
   color: #FF0000;
@@ -224,8 +225,14 @@ font-size: 40px;
   margin-left: 100px;
 }
 .gift-img{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  grid-gap: 10px; 
+  justify-content: center;
   padding: 10px;
   margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
   
 }
 .gift-img img{
